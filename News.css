@@ -1,0 +1,991 @@
+<style>
+.row---parent-row .fl-row-content-wrap {
+    background: #f6f6f6;
+    background-image: radial-gradient(62.53% 144.1% at 0% 100%, #EEEFF1 45.31%, rgba(238, 239, 241, 0) 100%);
+}
+.row---parent-row .fl-row-content-wrap:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: url(https://legacylendidev.wpengine.com/wp-content/uploads/2023/05/Group-8-12.png);
+}
+.row---parent-row .fl-row-content {
+    max-width: 930px;
+    margin-left: 28.4vw;
+    margin-right: 22vw;
+}
+.card-link {
+position: absolute;
+width: 100%;
+height: 100%;
+inset: 0;
+z-index: 1;
+}
+.mod---tagline p{
+font-family: var(--primary-font);
+font-style: italic;
+font-weight: 300;
+font-size: 30px;
+line-height: 40px;
+color: var(--charcoal);   
+}
+.mod---tagline .fl-module-content {
+    margin: 0 29px 3px;
+}
+.mod---tagline p {
+margin: 0px;
+}
+.mod---top-news-heading .fl-heading, .mod---news-post .uabb-post-meta, .mod---news-post span.uabb-meta-date. .mod---singlePost-content p, h4.post-NextPrevious, .mod---top-policy-headingText p  {
+font-family: var(--primary-font);
+font-weight: 400;
+}
+.mod---top-news-heading .fl-heading {
+font-size: 60px;
+line-height: 50px;
+position: relative;
+}
+.mod---top-newsPage-heading .fl-heading{
+color: #b77333;  
+}
+.mod---singlePost-title .fl-heading{
+color: var(--charcoal);  
+}
+.mod---top-news-heading .fl-module-content {
+margin-top: 0;
+}
+.mod---top-newsPage-heading .fl-module-content {
+    margin-left: 0px;
+    margin-bottom: 30px;
+}
+.mod---top-news-heading .fl-heading:before, .mod---top-policy-heading .fl-heading:before{
+position: absolute;
+content: '';
+right: calc(100% + 9px);
+width: 210px;
+height: 3px;
+}
+.mod---top-newsPage-heading .fl-heading:before{
+    bottom: 3px;
+    background: #b77333;
+}
+.mod---singlePost-title .fl-heading:before {
+    top: 32px;
+    background: var(--charcoal);
+}
+.mod---news-post .uabb-post-wrapper .uabb-blog-post-content {
+    text-align: left;
+    padding:0;
+    position: unset;
+}
+.uabb-module-content.uabb-blog-posts.uabb-blog-posts-grid.uabb-post-grid-3 .uabb-post-wrapper:nth-of-type(3n+1) {
+    padding-right:30px;
+    padding-left:0%;
+}
+.uabb-module-content.uabb-blog-posts.uabb-blog-posts-grid.uabb-post-grid-3 .uabb-post-wrapper:nth-of-type(3n+2) {
+    padding:0 15px;
+}
+.uabb-module-content.uabb-blog-posts.uabb-blog-posts-grid.uabb-post-grid-3 .uabb-post-wrapper:nth-of-type(3n+3) {
+    padding-left:30px;
+    padding-right:0%!;
+}
+.uabb-module-content.uabb-blog-posts.uabb-blog-posts-grid.uabb-post-grid-3 .uabb-post-wrapper:nth-of-type(3n+4) {
+    clear:left;
+}
+.mod---news-post .uabb-blog-posts-shadow.clearfix, .previous-newspost-both {
+     padding: 10px 15px 15px;
+    background: rgb(220 229 232 / 30%);
+    border: 1px solid rgb(54 69 79 / 30%);
+    min-height: 240px;
+    height: 100%!important;
+    position: relative;
+}
+.mod---news-post .uabb-blog-posts .uabb-post-wrapper {
+position: unset !important;
+}
+.mod---news-post .uabb-blog-posts .uabb-post-thumbnail img, .news-thumbnail img {
+    width: 100%;
+    height: 46px;
+    object-fit: contain;
+}
+.mod---news-post .uabb-post-meta, h5.news-date-style  {
+padding: 0;
+font-size: 16px;
+line-height: 20px;
+color: #36454f;
+border-bottom: 1px solid #36454f;
+margin-bottom: 15px;
+padding-bottom: 8px;
+}
+.mod---news-post span.uabb-meta-date, .mod---singlePost-content p {
+line-height: 26px;
+color:var(--charcoal);
+}
+.uabb-meta-date-newspage {
+font-size: 16px;
+}
+.mod---singlePost-date p{
+font-size: 16px;
+}
+.mod---singlePost-content p {
+font-size: 18px;
+}
+.mod---news-post .uabb-post-heading, h3.news-heading {
+    font-family: Lato semibold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #36454f;
+     min-height: 107px;
+}
+/* ========== Single Post Page ==========*/
+.row---singlePost-parent .fl-row-content-wrap {
+    padding: 157px 0px 56px;
+}
+.row---singlePost-parent .fl-row-content {
+    max-width: 810px;
+    margin-left: 28vw;
+    margin-right: auto;
+}
+.mod---singlePost-date .fl-module-content {
+margin: 14px 0px 0;
+}
+.mod---singlePost-content .fl-module-content {
+    margin-top: 10px;
+}
+h4.post-NextPrevious {
+font-size: 24px;
+line-height: 24px;
+text-decoration: underline;
+color: #435861;
+margin-bottom: 32px;
+}
+h3.news-heading {
+    margin: 0;
+}
+.previous-newspost-both {
+width: 280px;
+}
+.mod---singlePost-title .fl-heading {
+font-size: 40px;
+line-height: 45px;
+}
+.mod---post-navigation .nav-links a {
+text-align: left;
+}
+.mod---singlePage-devider .fl-module-content{
+margin:0;
+}
+.mod---singlePage-devider .fl-separator {
+border-top: 1px solid #435861;
+}
+.mod---singlePage-devider .fl-module-content {
+    margin: 21px 0 18px;
+}
+@media (max-width: 1640px){
+    .mod---news-post .uabb-post-heading, h3.news-heading {
+    min-height: 120px;
+}
+}
+@media (max-width: 1536px){
+/*                    .row---parent-row > .fl-row-content-wrap {*/
+/*background-image: url(/wp-content/uploads/2023/05/Group-8-6.png);*/
+/*}*/
+.row---parent-row .fl-row-content-wrap:before {
+  background-image: url(/wp-content/uploads/2023/05/Group-8-6.png);  
+}
+
+.mod---tagline p{
+font-size: 24px;
+line-height: 32px;
+}
+.mod---top-news-heading .fl-heading {
+font-size: 50px;
+line-height: 50px;
+}
+.mod---singlePost-title .fl-heading {
+    font-size: 35px;
+    line-height: 40px;
+}
+.mod---singlePost-date p{
+font-size: 14px;
+line-height: 22px;
+}
+.mod---singlePost-content p{
+font-size: 16px;
+line-height: 22px;
+}
+h4.post-NextPrevious {
+font-size: 20px;
+line-height: 24px;
+    margin-bottom: 22px;
+}
+.mod---news-post .uabb-post-meta, h5.news-date-style {
+font-size: 14px;
+line-height: 21px;
+}
+.mod---news-post .uabb-post-heading, h3.news-heading {
+font-size: 16px;
+line-height: 22px;
+}
+.row---singlePost-parent .fl-row-content {
+    max-width: 750px;
+    margin-left: 25.6vw;
+}
+.row---singlePost-parent .fl-row-content-wrap {
+padding: 89px 0px 38px;
+}
+.mod---top-news-heading .fl-module-content {
+    margin-bottom: 10px;
+}
+.mod---singlePost-date .fl-module-content {
+    margin: 14px 0px 5px;
+}
+.mod---singlePost-title .fl-heading:before {
+top: 31px;
+}
+.mod---top-news-heading .fl-heading:before {
+width: 168px;
+}
+.mod---singlePage-devider .fl-module-content {
+    margin: 28px 0 23px;
+}
+.row---parent-row .fl-row-content {
+max-width: 812px;
+    margin-right: 18vw;
+}
+.row---singlePost-parent > .fl-row-content-wrap {
+    background-image: url(/wp-content/uploads/2023/05/Group-8-11.png);
+}
+.row---parent-row .fl-row-content-wrap {
+padding: 92px 0 16px;
+}
+.mod---top-newsPage-heading .fl-module-content {
+    margin-bottom: 10px;
+}
+.mod---news-post .uabb-post-heading, h3.news-heading {
+    min-height: 97px;
+}
+.mod---news-post .uabb-blog-posts-shadow.clearfix, .previous-newspost-both {
+    padding: 2px 15px 15px;
+}
+.mod---news-post .uabb-post-meta, h5.news-date-style {
+    margin-bottom: 9px;
+    padding-bottom: 4px;
+}
+.mod---top-newsPage-heading .fl-heading:before {
+    bottom: 7px;
+}
+.mod---news-post .uabb-blog-posts .uabb-post-wrapper {
+    margin-bottom: 37px;
+}
+.mod---tagline .fl-module-content {
+    margin: 0 20px 0px;
+}
+.previous-newspost-both {
+width: 240px;
+}
+.mod---news-post .uabb-blog-posts-shadow.clearfix, .previous-newspost-both {
+min-height: 215px;
+}
+
+}
+@media (max-width: 1400px){
+  .mod---news-post .uabb-post-heading, h3.news-heading {
+    min-height: 110px;
+}  
+}
+
+@media (max-width: 1366px){
+/*                        .row---parent-row > .fl-row-content-wrap {*/
+/*background-image: url(/wp-content/uploads/2023/05/Group-8-7.png);*/
+/*}*/
+.row---parent-row .fl-row-content-wrap:before {
+background-image: url(/wp-content/uploads/2023/05/Group-8-7.png);  
+}
+.mod---tagline p{
+font-size: 21px;
+line-height: 28px;
+}
+.mod---top-news-heading .fl-heading {
+font-size: 45px;
+line-height: 45px;
+}
+h4.post-NextPrevious {
+font-size: 18px;
+ margin-bottom: 17px;
+}
+.row---singlePost-parent .fl-row-content {
+    max-width: 700px;
+    margin-left: 24vw;
+}
+.mod---top-news-heading .fl-module-content{
+    margin-bottom: 8px;
+}
+.mod---singlePost-content .fl-module-content {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.mod---tagline .fl-module-content {
+    margin: 0 16px 0px;
+}
+.row---singlePost-parent .fl-row-content-wrap {
+    padding: 120px 0px 46px;
+}
+.row---parent-row .fl-row-content {
+max-width: 792px;
+    margin-left: 20.99vw;
+}
+.uabb-module-content.uabb-blog-posts.uabb-blog-posts-grid.uabb-post-grid-3 .uabb-post-wrapper:nth-of-type(3n+1) {
+    padding-right: 24px;
+    padding-left: 0%;
+}
+.uabb-module-content.uabb-blog-posts.uabb-blog-posts-grid.uabb-post-grid-3 .uabb-post-wrapper:nth-of-type(3n+2) {
+    padding: 0 12px;
+}
+.uabb-module-content.uabb-blog-posts.uabb-blog-posts-grid.uabb-post-grid-3 .uabb-post-wrapper:nth-of-type(3n+3) {
+    padding-left: 24px;
+    padding-right: 0%;
+}
+.row---parent-row .fl-row-content-wrap {
+    padding: 119px 0 0px;
+}
+.mod---news-post .uabb-blog-posts .uabb-post-wrapper {
+    margin-bottom: 29px;
+}
+.row---singlePost-parent > .fl-row-content-wrap {
+    background-image: url(/wp-content/uploads/2023/05/Group-349-4.png);
+}
+.mod---top-newsPage-heading .fl-module-content {
+    margin-bottom: 22px;
+}
+.mod---news-post .uabb-post-heading, h3.news-heading {
+    min-height: 97px;
+}
+.mod---singlePost-title .fl-heading:before {
+top: 27px;
+}
+.mod---top-news-heading .fl-heading:before {
+width: 150px;
+}
+.mod---singlePage-devider .fl-module-content {
+    margin: 20px 0 0px;
+}
+
+}
+@media (max-width: 1280px){
+/* .row---parent-row > .fl-row-content-wrap {*/
+/*background-image: url(/wp-content/uploads/2023/05/Group-8-8.png);*/
+/*}*/
+.row---parent-row .fl-row-content-wrap:before {
+background-image: url(/wp-content/uploads/2023/05/Group-8-8.png); 
+}
+.row---parent-row .fl-row-content {
+    margin-left: 18.5vw;
+    margin-right: 7vw;
+}
+.mod---top-news-heading .fl-heading {
+font-size: 28px;
+line-height: 30px;
+}
+.row---singlePost-parent .fl-row-content {
+max-width: 650px;
+}
+.row---singlePost-parent .fl-row-content-wrap {
+padding: 124px 0px 35px;
+}
+.mod---singlePost-title .fl-heading:before {
+top: 22px;
+}
+.mod---top-newsPage-heading .fl-heading:before {
+    bottom: 5px;
+}
+.mod---top-news-heading .fl-module-content {
+    margin-bottom: 10px;
+}
+.mod---singlePost-content .fl-module-content {
+    margin-top: 8px;
+    margin-bottom: 27px;
+}
+.mod---singlePage-devider .fl-module-content {
+margin: 0px 0 24px;
+}
+.row---singlePost-parent > .fl-row-content-wrap {
+    background-image: url(/wp-content/uploads/2023/05/Group-349-3.png);
+}
+h4.post-NextPrevious {
+    margin-bottom: 19px;
+}
+.mod---post-navigation .fl-module-content {
+margin-top: 0px;
+}
+.row---parent-row .fl-row-content-wrap {
+padding: 120px 0 5px;
+}
+}
+@media (max-width: 1170px){
+    .mod---news-post .uabb-post-heading, h3.news-heading {
+    min-height: 132px;
+}
+}
+@media (max-width: 1024px){
+/*.row---parent-row > .fl-row-content-wrap {*/
+/*background-image: url(/wp-content/uploads/2023/05/Group-8-1.png);*/
+/*}*/
+.row---parent-row .fl-row-content-wrap:before {
+background-image: url(/wp-content/uploads/2023/05/Group-8-1.png); 
+}
+.row---parent-row .fl-row-content {
+max-width: 637px;
+    margin-left: 19vw;
+    /*margin-right: 17vw;*/
+}
+.row---parent-row .fl-row-content-wrap {
+padding: 150px 0 17px;
+}
+.mod---singlePost-title .fl-heading:before {
+    top: 32px;
+}
+.mod---tagline p {
+font-size: 24px;
+line-height: 32px;
+}
+.mod---top-news-heading .fl-heading {
+font-size: 38px;
+line-height: 42px;
+}
+.mod---singlePost-date p{
+font-size: 16px;
+line-height: 20px;
+}
+.mod---singlePost-content p{
+font-size: 18px;
+line-height: 24px;
+}
+h4.post-NextPrevious {
+font-size: 20px;
+    line-height: 28px;
+}
+.mod---top-news-heading .fl-heading:before {
+width: 164px;
+}
+.mod---news-post .uabb-post-meta, h5.news-date-style {
+font-size: 16px;
+line-height: 20px;
+}
+.mod---news-post .uabb-post-heading, h3.news-heading {
+font-size: 18px;
+line-height: 24px;
+}
+.row---singlePost-parent .fl-row-content {
+    max-width: 620px;
+    margin-left: 20.5vw;
+}
+.mod---top-news-heading .fl-module-content {
+    margin-bottom: 14px;
+}
+.mod---singlePost-content .fl-module-content {
+    margin-top: 16px;
+    margin-bottom: 27px;
+}
+.mod---singlePost-content .fl-module-content {
+    margin-top: 16px;
+    margin-bottom: 23px;
+}
+.row---singlePost-parent .fl-row-content-wrap {
+padding: 129px 0px 50px;
+}
+.mod---singlePage-devider .fl-module-content {
+margin: 23px 0 30px;
+}
+h4.post-NextPrevious {
+    margin-bottom: 22px;
+}
+.mod---tagline .fl-module-content {
+    margin: 0 21px 0px;
+}
+.previous-newspost-both {
+width: 280px;
+}
+.row---singlePost-parent > .fl-row-content-wrap {
+    background-image: url(/wp-content/uploads/2023/05/Group-349-2.png);
+}
+.mod---news-post .uabb-blog-posts .uabb-post-wrapper:nth-child(odd) {
+padding-left: 12px!important;
+padding-right: 27px!important;
+}
+.mod---news-post .uabb-blog-posts .uabb-post-wrapper:nth-child(even) {
+padding-right: 12px!important;
+padding-left: 27px!important;
+}
+.mod---news-post .uabb-post-heading, h3.news-heading {
+    min-height: 122px;
+}
+.uabb-module-content.uabb-blog-posts.uabb-blog-posts-grid.uabb-post-grid-3 .uabb-post-wrapper:nth-of-type(3n+4) {
+    clear: unset;
+}
+.mod---news-post .uabb-blog-posts-shadow.clearfix, .previous-newspost-both {
+min-height: 240px;
+}
+.mod---top-newsPage-heading .fl-module-content {
+    margin-left: 8px;
+        margin-bottom: 20px;
+}
+}
+@media (max-width: 870px){
+    .mod---news-post .uabb-post-heading, h3.news-heading {
+    min-height: 144px;
+}
+.row---singlePost-parent .fl-row-content {
+    padding-right: 30px;
+}
+}
+@media (max-width: 768px){
+/*    .row---parent-row > .fl-row-content-wrap {*/
+/*background-image: url(/wp-content/uploads/2023/05/Group-8-2.png);*/
+/*}*/
+.row---parent-row .fl-row-content-wrap:before {
+background-image: url(/wp-content/uploads/2023/05/Group-8-2.png);
+}
+.row---singlePost-parent .fl-row-content {
+    padding-right: 0px;
+}
+.row---parent-row .fl-row-content {
+max-width: 603px;
+    margin-left: 12.2vw;
+}
+.mod---top-newsPage-heading .fl-module-content {
+    margin-left: 0px;
+        margin-bottom: 10px;
+}
+.mod---news-post .uabb-post-heading, h3.news-heading {
+    min-height: 118px;
+}
+.row---parent-row .fl-row-content-wrap {
+padding: 140px 0 12px;
+}
+.mod---top-news-heading .fl-heading:before {
+display:none;
+}
+.mod---top-news-heading .fl-heading {
+font-size: 50px;
+line-height: 50px;
+}
+.row---singlePost-parent > .fl-row-content-wrap {
+    background-image: url(/wp-content/uploads/2023/05/Group-349-1.png);
+}
+.mod---news-post .uabb-blog-posts .uabb-post-wrapper:nth-child(odd) {
+padding-right: 20px!important;
+padding-left: 0px!important;
+}
+.mod---news-post .uabb-blog-posts .uabb-post-wrapper:nth-child(even) {
+padding-left: 20px!important;
+padding-right: 0px!important;
+}
+.mod---singlePost-title .fl-heading {
+font-size: 38px;
+line-height: 42px;
+}
+.row---singlePost-parent .fl-row-content {
+    max-width: 604px;
+    margin-left: 12.2vw;
+}
+.row---singlePost-parent .fl-row-content-wrap {
+    padding: 132px 0px 50px;
+}
+.mod---top-news-heading .fl-module-content {
+    margin-bottom: 19px;
+}
+.mod---singlePost-content .fl-module-content {
+    margin-top: 14px;
+    margin-bottom: 17px;
+}
+h4.post-NextPrevious {
+    margin-bottom: 25px;
+}
+.nav-links {
+    display: flex!important;
+}
+.mod---news-post .uabb-blog-posts-shadow.clearfix, .previous-newspost-both {
+    padding: 4px 15px 15px 18px;
+}
+.mod---news-post .uabb-post-meta, h5.news-date-style {
+    margin-bottom: 9px;
+    padding-bottom: 8px;
+}
+}
+@media (max-width: 720px){
+.row---singlePost-parent .fl-row-content {
+    padding-right: 30px;
+}
+.previous-newspost-both {
+width: 267px;
+}
+}
+@media (max-width: 690px){
+/*        .row---parent-row > .fl-row-content-wrap {*/
+/*background-image: url(/wp-content/uploads/2023/05/Group-8-2.png);*/
+/*}*/
+.row---parent-row .fl-row-content-wrap:before {
+background-image: url(/wp-content/uploads/2023/05/Group-8-2.png);
+}
+.row---parent-row .fl-row-content {
+max-width: 493px;
+margin-left: 10.5vw;
+    margin-right: 6vw;
+}
+.mod---news-post .uabb-post-heading, h3.news-heading {
+    min-height: 100px;
+}
+.mod---tagline p{
+font-size: 19px;
+line-height: 21px;
+}
+.mod---top-news-heading .fl-heading {
+font-size: 40px;
+line-height: 40px;
+}
+.mod---news-post .uabb-post-meta, h5.news-date-style {
+font-size: 13.3131px;
+line-height: 17px;
+}
+.mod---news-post .uabb-post-heading, h3.news-heading {
+font-size: 14.9773px;
+line-height: 20px;
+}
+.mod---news-post .uabb-blog-posts .uabb-post-wrapper:nth-child(odd) {
+padding-right: 11px!important;
+}
+.mod---news-post .uabb-blog-posts .uabb-post-wrapper:nth-child(even) {
+padding-left: 11px!important;
+}
+.mod---news-post .uabb-blog-posts-shadow.clearfix, .previous-newspost-both {
+min-height: 200px;
+}
+.row---parent-row .fl-row-content-wrap {
+padding: 108px 0px 0px;
+}
+.mod---top-newsPage-heading .fl-module-content {
+    margin-bottom: 5px;
+}
+.previous-newspost-both {
+width: 240px;
+}
+}
+@media (max-width: 601px){
+    .row---singlePost-parent .fl-row-content {
+    padding-right: 0px;
+}
+.row---singlePost-parent .fl-row-content {
+    max-width: 497px;
+    margin-left: 10vw;
+}
+.mod---top-news-heading .fl-module-content, .mod---singlePost-content p, .mod---singlePage-devider .fl-module-content {
+    max-width: 480px;
+}
+.mod---singlePost-title .fl-heading {
+    font-size: 32px;
+    line-height: 36px;
+}
+.mod---singlePost-date p {
+    font-size: 14px;
+    line-height: 16px;
+}
+.mod---singlePost-content p {
+    font-size: 16px;
+    line-height: 20px;
+}
+.row---singlePost-parent > .fl-row-content-wrap {
+    background-image: url(/wp-content/uploads/2023/05/Group-349.png);
+}
+h4.post-NextPrevious {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 33px;
+}
+.previous-newspost-both {
+width: 235px;
+}
+.row---singlePost-parent .fl-row-content-wrap {
+    padding: 111px 0px 20px;
+}
+.mod---singlePost-content .fl-module-content {
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+.mod---singlePage-devider .fl-module-content {
+    margin: 14px 0 21px;
+}
+}
+@media (max-width: 570px){
+.mod---top-news-heading .fl-module-content, .mod---singlePost-content p, .mod---singlePage-devider .fl-module-content {
+    padding-right: 30px;
+}
+.mod---post-navigation .fl-module-content {
+   padding-right: 20px;
+}
+.previous-newspost-both {
+    width: 222px;
+    min-height: 200px;
+}
+}
+@media (max-width: 530px){
+.row---parent-row .fl-row-content {
+max-width: 280px;
+    margin-left: 23.5vw;
+        margin-right: 0vw;
+}
+.mod---news-post .uabb-blog-posts .uabb-post-wrapper:nth-child(odd) {
+    padding-right: 0!important;
+    padding-left: 0px!important;
+}
+.mod---news-post .uabb-blog-posts .uabb-post-wrapper:nth-child(even) {
+    padding-left: 0px!important;
+    padding-right: 0!important;
+}
+.mod---news-post .uabb-blog-posts .uabb-post-wrapper{
+width: 100%;
+}
+.mod---news-post .uabb-blog-posts-shadow.clearfix, .previous-newspost-both {
+min-height: 240px;
+}
+.mod---post-navigation .fl-module-content {
+    padding-right: 30px;
+    margin-bottom: 0;
+}
+.previous-newspost-both {
+display:none;
+}
+.nav-previous {
+    margin: 0!important;
+}
+.mod---tagline .fl-module-content {
+    margin: 0 21px 7px;
+}
+.mod---top-news-heading .fl-module-content {
+    margin-bottom: 11px;
+}
+.row---singlePost-parent .fl-row-content-wrap {
+    padding: 144px 0px 18px;
+}
+.mod---singlePost-content .fl-module-content {
+    margin-bottom: 20px;
+        margin-top: 12px;
+}
+}
+@media (max-width: 414px){
+/*            .row---parent-row > .fl-row-content-wrap {*/
+/*background-image: url(/wp-content/uploads/2023/05/Group-8-4.png);*/
+/*}*/
+.row---parent-row .fl-row-content-wrap:before {
+background-image: url(/wp-content/uploads/2023/05/Group-8-4.png);
+}
+.row---parent-row .fl-row-content {
+    margin-left: 16vw;
+}
+.mod---tagline p{
+line-height: 25px;
+}
+.row---parent-row .fl-row-content-wrap {
+padding: 154px 0px 18px;
+}
+.mod---top-news-heading .fl-heading {
+font-size: 50px;
+line-height: 50px;
+} 
+.mod---news-post .uabb-post-meta, h5.news-date-style {
+font-size: 16px;
+line-height: 20px;
+}
+.mod---news-post .uabb-post-heading, h3.news-heading {
+font-size: 18px;
+line-height: 24px;
+}
+.row---singlePost-parent > .fl-row-content-wrap {
+    background-image: url(/wp-content/uploads/2023/05/Group-352.png);
+}
+.row---singlePost-parent .fl-row-content {
+    max-width: 315px;
+    margin-left: 12.2vw;
+}
+.mod---top-news-heading .fl-module-content, .mod---singlePost-content p, .mod---singlePage-devider .fl-module-content {
+    padding-right: 0px;
+}
+.mod---singlePost-title .fl-heading {
+    font-size: 32px;
+    line-height: 36px;
+}
+.mod---singlePost-date p {
+    font-size: 16px;
+    line-height: 20px;
+}
+.mod---singlePost-content p {
+    font-size: 18px;
+    line-height: 24px;
+}
+}
+@media (max-width: 360px){
+/*                .row---parent-row > .fl-row-content-wrap {*/
+/*background-image: url(/wp-content/uploads/2023/05/Group-8-5.png);*/
+/*}*/
+.row---parent-row .fl-row-content-wrap:after {
+background-image: url(/wp-content/uploads/2023/05/Group-8-5.png);
+}
+.mod---tagline .fl-module-content {
+    margin: 0 20px 7px;
+}
+.row---parent-row .fl-row-content-wrap {
+padding: 157px 0px 15px;
+}  
+.row---parent-row .fl-row-content {
+    margin-left: 40px;
+}
+.row---singlePost-parent > .fl-row-content-wrap {
+    background-image: url(/wp-content/uploads/2023/05/Group-352-2.png);
+}
+.row---singlePost-parent .fl-row-content-wrap {
+    padding: 144px 0px 14px;
+}
+.row---singlePost-parent .fl-row-content {
+    margin-left: 27px;
+}
+.mod---top-news-heading .fl-module-content {
+    margin-bottom: 13px;
+}
+.mod---singlePost-content .fl-module-content {
+    margin-top: 15px;
+}
+.mod---singlePage-devider .fl-module-content {
+    margin: 14px 0 23px;
+}
+.mod---post-navigation .fl-module-content {
+    padding-right: 0px;
+}
+}
+@media (min-width: 2200px){
+.row---parent-row > .fl-row-content-wrap {
+    /*background-image: url(/wp-content/uploads/2023/05/Group-8-9.png);*/
+    padding-top: 208px;
+    padding-bottom: 25px;
+}
+.row---parent-row .fl-row-content-wrap:before {
+background-image: url(/wp-content/uploads/2023/05/Group-8-9.png);
+}
+.row---parent-row .fl-row-content {
+    max-width: 1242px;
+    margin-right: 23vw;
+    margin-left: 28.4vw;
+}
+.mod---tagline p {
+    font-size: 34px;
+    line-height: 34px;
+}
+.mod---top-news-heading .fl-heading {
+    font-size:80px!important;
+    line-height: 80px!important;
+}
+.mod---top-news-heading .fl-heading:before {
+    width: 280px;
+    height: 4px;
+    bottom: 9px;
+}
+.mod---news-post .uabb-post-meta, h5.news-date-style {
+    font-size: 21px;
+    line-height: 34px;
+}
+.mod---news-post .uabb-post-heading, h3.news-heading {
+    font-size: 24px;
+    line-height: 32px;
+}
+.uabb-module-content.uabb-blog-posts.uabb-blog-posts-grid.uabb-post-grid-3 .uabb-post-wrapper {
+    margin-bottom: 67px;
+}
+.uabb-module-content.uabb-blog-posts.uabb-blog-posts-grid.uabb-post-grid-3 .uabb-post-wrapper:nth-of-type(3n+1) {
+    padding-right: 40px;
+}
+.uabb-module-content.uabb-blog-posts.uabb-blog-posts-grid.uabb-post-grid-3 .uabb-post-wrapper:nth-of-type(3n+2) {
+    padding: 0 20px;
+}
+.uabb-module-content.uabb-blog-posts.uabb-blog-posts-grid.uabb-post-grid-3 .uabb-post-wrapper:nth-of-type(3n+3) {
+    padding-left: 40px;
+}
+.mod---news-post .uabb-blog-posts-shadow.clearfix, .previous-newspost-both {
+    min-height: 320px;
+}
+.mod---news-post .uabb-blog-posts-shadow.clearfix{
+    padding: 15px 22px 18px 24px;
+}
+.mod---top-newsPage-heading .fl-module-content {
+    margin-bottom: 32px;
+}
+/*==Press Release -==*/
+.row---singlePost-parent > .fl-row-content-wrap {
+    background-image: url(/wp-content/uploads/2023/05/Group-8-10.png);
+}
+.mod---tagline p {
+    font-size: 34px;
+    line-height: 34px;
+}
+.mod---top-news-heading .fl-heading {
+    font-size: 60px;
+    line-height: 65px;
+}
+.mod---singlePost-date p{
+    font-size: 21px;
+      line-height: 32px;
+}
+.mod---singlePost-content p{
+    font-size: 24px;
+      line-height: 32px;
+}
+h4.post-NextPrevious {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom:33px;
+}
+.row---singlePost-parent .fl-row-content-wrap {
+    padding: 210px 0px 60px;
+}
+.row---singlePost-parent .fl-row-content {
+    max-width: 1000px;
+    margin-left: 28%;
+    margin-right: auto;
+}
+.mod---singlePost-title .fl-heading:before {
+    top: 47px;
+}
+.previous-newspost-both {
+    width: 373px;
+}
+.previous-newspost-both {
+    padding: 9px 22px 18px 29px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>

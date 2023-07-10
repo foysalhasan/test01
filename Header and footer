@@ -1,0 +1,902 @@
+<style>
+body, html{
+    overflow-x: hidden !important;
+}
+body, header{
+    max-width: 2560px;
+    margin: 0 auto;
+}
+body:not(.fl-builder-edit) header{
+    position: fixed !important;
+}
+.header_logo img{
+    max-width: 295px;
+}
+.custom_header {
+    display: flex;
+    align-items: center;
+}
+.menu_col {
+    width: 33.33%;
+}
+.brand_box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.brand_box h4{
+    margin: 0px;
+    margin-bottom: 9px;
+    color: var(--grey-4);
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    color: var(--grey-4);
+    margin-bottom: 0px;
+}
+.brand_box .bain_cap{
+    font-weight: 600;
+}
+.home .row---header-blue-menu .brand_box h4, .row---header-white-menu .brand_box h4{
+    color: var(--charcoal);
+}
+.home .sticky_menu .row---header-blue-menu .brand_box h4{
+    color: var(--grey-4);
+}
+    
+.ubermenu{
+    position: absolute;
+    top: 150px;
+    right: 44px;
+    width: 182px;
+}    
+.home .ubermenu{
+    top: 35.5vh;
+    transition: 0.2s top ease-in;
+}
+.home .sticky_menu .ubermenu{
+    top: 150px !important;
+    transition: 0.3s top ease-in;
+}
+.ubermenu-nav{
+    display: flex !important;
+    flex-direction: column;
+}
+.ubermenu-target{
+    font-size: 18px;
+    color: var(--grey-3) !important;
+    padding: 12px 21px 12px 2px !important;
+}
+.ubermenu-target:hover, .ubermenu-target:focus{
+    outline: none;
+}
+.ubermenu-current-menu-item .ubermenu-target, .ubermenu-current-menu-item .ubermenu-target:hover{
+    color: var(--copper-3) !important;
+}
+.ubermenu-target:hover{
+    color: var(--copper-4) !important;
+}
+.ubermenu-item:hover svg path{
+    fill: var(--copper-4);
+}
+.ubermenu-current-menu-item:hover svg path{
+    fill: var(--copper-3);
+}
+
+#abl .ubermenu-current-menu-item .ubermenu-target, #abl .ubermenu-current-menu-item:hover .ubermenu-target{
+    color: var(--blue-3) !important;
+}
+#abl .ubermenu-current-menu-item svg path, #abl .ubermenu-current-menu-item:hover svg path{
+    fill: var(--blue-3) !important;
+}
+#abl .ubermenu-target:hover{
+    color: var(--blue-4) !important;
+}
+#abl .ubermenu-item:hover svg path{
+    fill: var(--blue-4);
+}
+#ubermenu-nav-main-2 li:not(:last-child) {
+    border-bottom: 1px solid var(--grey-3);
+}
+#ubermenu-nav-main-2 li{
+    position: relative;
+}
+.ubermenu-custom-content{
+    position: absolute;
+    top: 4px;
+    left: -40px;
+    bottom: 0;
+    opacity: 0;
+}    
+.ubermenu-current-menu-item .ubermenu-custom-content, .ubermenu-item:hover .ubermenu-custom-content{
+    opacity: 1;
+}
+.sticky_menu .row---header-blue-menu .fl-row-content-wrap{
+    background-color: var(--charcoal) !important;
+}
+.sticky_menu .row---header-white-menu .fl-row-content-wrap{
+    background-color: var(--white) !important;
+}
+ #abl .sticky_menu .row---header-blue-menu .fl-row-content-wrap {
+        background-color: var(--blue-1) !important;
+    }
+.row---header-gbl .fl-module-content{
+    margin: 9.61px 20px;
+}
+.row---header-gbl .fl-row-content{
+    max-width: 97%;
+}
+    
+    
+    
+    
+    
+    
+/*Footer starts from here*/
+footer{
+    background: var(--charcoal);
+    position: relative;
+}
+
+.row--footer:before{
+    content: " ";
+    background: linear-gradient(90deg, rgba(77, 83, 99, 0.3) 0%, rgba(77, 83, 99, 0) 28.13%, rgba(77, 83, 99, 0) 73.96%, rgba(77, 83, 99, 0.3) 100%);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    mix-blend-mode: multiply;
+    position: absolute;
+}
+.row--footer:after{
+    content: " ";
+    background: linear-gradient(76.77deg, rgb(247 247 247 / 6%) 0%, rgba(247, 247, 247, 0) 101.87%);
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+.row--footer .fl-col{
+    z-index: 9;
+}
+.mod---company-name-ftr p{
+    font-family: var(--minion-font);
+    font-size: 30px;
+    line-height: 35px;
+    font-style: italic;
+    padding-left: 5%;
+}
+.row--footer img{
+    max-width: 261px;
+}
+.row--footer .fl-row-content-wrap{
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
+.row--footer .fl-row-content{
+    max-width: 1660px;
+    width: 92%;
+}
+.mod---location p{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+}
+.mod---copyright p{
+    font-size: 16px;
+    line-height: 30px;
+    max-width: 282px;
+}    
+.mod---line-ftr .fl-separator{
+    border-color: var(--copper-3);
+}
+.mod---line-ftr .fl-module-content{
+    margin-top: 2px;
+    margin-bottom: 26px;
+}
+.mod---copyright .fl-module-content{
+    margin-top: 3px;
+}    
+.menu-item a {
+    font-size: 18px;
+    color: var(--grey-2) !important;
+    padding-left: 0px !important;
+}
+.menu-item.current-menu-item a{
+    color: #F0EDE4 !important;
+}
+.menu .menu-item:not(:last-child){
+    border-bottom: 1px solid var(--grey-2);
+}
+.menu, .pl-links{
+    max-width: 282px;
+}
+.menu-item a:before {
+    content: " ";
+    background-image: url(/wp-content/uploads/2023/05/footer-arrow.svg);
+    top: 0;
+    position: absolute;
+    height: 13px;
+    width: 13px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 0;
+    margin: auto;
+    margin-left: -20px;
+    opacity: 0;
+}
+.menu-item.current-menu-item a:before, .menu-item a:hover:before{
+    opacity: 1;
+}
+.mod--ftr-menu{
+    padding-left: 19%;
+}
+.pl_link{
+    display: flex !important;
+    justify-content: space-between;
+    padding: 12px 15px 12px 0px;
+    font-size: 16px;
+}    
+.pl-links .pl_link:not(:last-child){
+    border-bottom: 1px solid;
+}
+.mod---designedBy p{
+    font-size: 16px;
+    line-height: 30px;
+}
+.lexaeon{
+    font-size: 19px;
+    letter-spacing: 0.05em;
+    font-family: "Obsidian Background A", "Obsidian Background B";
+}
+.pl-links{
+    padding-bottom: 43px;
+}
+.col---policy .fl-col-content{
+        max-width: 333px;
+    margin-left: auto;
+}    
+body:not(.fl-builder-edit) .mod---copyright-mob{
+    display: none;
+}
+.row--footer {
+    border-top: 1px solid var(--grey-3);
+}    
+
+/*Responsive start*/
+@media (min-width: 2200px){
+    body:not(.home) .ubermenu, .home .sticky_menu .ubermenu{
+        top: 200px !important;
+    }
+    .row---header-gbl .fl-row-content{
+        max-width: unset;
+        min-width: 1880px;
+        width: 80%;
+    }
+    .ubermenu-target {
+        font-size: 21px;
+        padding: 14px 21px 14px 2px !important;
+    }
+    .row--footer .fl-row-content {
+        max-width: 2050px;
+    }
+    .menu, .pl-links {
+        max-width: 325px;
+    }
+    .mod---location p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .brand_box h4{
+        font-size: 22px;
+    }
+    .header_logo img {
+        max-width: 325px;
+    }
+    .row---header-gbl .fl-module-content {
+        margin: 17px 20px;
+    }
+    .ubermenu{
+        width: 214px;
+        right: 10%;
+    }
+    .mod---copyright p {
+        font-size: 19px;
+        line-height: 30px;
+        max-width: 330px;
+    }
+    .mod---line-ftr .fl-separator{
+        max-width: 325px;
+    }
+    .menu-item a {
+        font-size: 21px;
+    }
+    .pl_link {
+        font-size: 19px;
+    }
+    .mod---designedBy p {
+        font-size: 19px;
+        line-height: 30px;
+    }
+    .lexaeon {
+        font-size: 23px;
+    }
+    .col---policy .fl-col-content {
+        max-width: 347px;
+    }
+    .ubermenu-custom-content {
+        top: 7px;
+    }
+
+}
+
+@media (max-width: 1536px){
+    .ubermenu-custom-content {
+        top: -1px;
+    }
+    .header_logo img {
+        max-width: 237px;
+    }
+    .row---header-gbl .fl-module-content {
+        margin: 13.5px 16px;
+    }
+    .brand_box h4 {
+        font-size: 18px;
+    }
+    .ubermenu-target {
+        font-size: 16px;
+        padding: 9px 21px 9px 2px !important;
+    }
+    .ubermenu {
+        width: 164px;
+        top: 120px;
+    }
+    .home .sticky_menu .ubermenu{
+        top: 120px !important;
+    }
+    .home .ubermenu{
+        top: 35vh !important;
+    }
+        
+    .mod---company-name-ftr p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .row--footer img {
+        max-width: 209px;
+    }
+    .mod---location p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .mod---copyright p {
+        font-size: 14px;
+        line-height: 24px;
+        max-width: 244px;
+    }
+    .mod---line-ftr .fl-separator{
+        max-width: 236px;
+    }
+    .menu-item a {
+        font-size: 16px;
+        padding-top: 7px !important;
+        padding-bottom: 7px !important;
+    }
+    .menu, .pl-links {
+        max-width: 225px;
+    }
+    .pl_link {
+        font-size: 14px;
+    }
+    .mod---designedBy p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .mod--ftr-menu {
+        padding-left: 18%;
+    }
+    .pl-links {
+        padding-bottom: 8px;
+    }
+    .row--footer .fl-row-content-wrap {
+        padding-bottom: 5px;
+        padding-top: 17px;
+    }
+    .col---policy .fl-col-content {
+        max-width: 276px;
+    }
+}
+
+@media (max-width: 1366px){
+    .ubermenu, .home .sticky_menu .ubermenu{
+        top: 106px !important;
+    }
+    .home .ubermenu{
+        top: 34.5vh !important;
+    }
+    .header_logo img {
+        max-width: 222px;
+    }
+    .row---header-gbl .fl-module-content {
+        margin: 12.5px 16px;
+    }
+    
+    .row--footer .fl-row-content {
+        width: 100%;
+    }
+    .col---ftr-left .fl-col-group .fl-col:first-child{
+        padding-left: 5%;
+    }
+    .mod---line-ftr .fl-module-content {
+        margin-top: 0px;
+        margin-bottom: 23px;
+    }
+    .mod---copyright .fl-module-content {
+        margin-top: 0px;
+    }
+    .pl_link {
+        padding: 8px 15px 9px 0px;
+    }
+}
+
+@media (max-height: 755px){
+    /*.ubermenu{*/
+    /*    top: 16vh;*/
+    /*}*/
+    .home .ubermenu{
+        top: 22vh;
+    }
+}
+@media (max-width: 1280px){
+    body:not(.home) .ubermenu, .home .sticky_menu .ubermenu{
+        top: 100px !important;
+    }
+    .header_logo img {
+        max-width: 208px;
+    }
+    .row---header-gbl .fl-module-content {
+        margin: 11.5px 10px;
+    }
+
+}
+
+@media (max-width: 1250px){
+    .home .sticky_menu .ubermenu, .ubermenu, .home .ubermenu{
+        top: 80px !important;
+    }
+    .header_logo img {
+        max-width: 250px;
+    }
+    button:focus, button:hover{
+        border: none;    
+    }
+    .ubermenu-skin-minimal.ubermenu-mobile-modal.ubermenu-mobile-view {
+        background: rgb(247 247 247 / 90%);
+    }
+    .ubermenu-nav{
+        max-width: 182px;
+        margin: 0 auto !important;
+        margin-top: 14px !important;
+        padding-bottom: 30px !important;
+    }
+    .ubermenu .ubermenu-target{
+        text-align: center;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    #ubermenu-nav-main-2 li:first-child {
+        border-top: 1px solid var(--grey-3);
+    }
+    #ubermenu-nav-main-2 li:last-child {
+        border-bottom: 1px solid var(--grey-3);
+    }
+    .ubermenu.ubermenu-mobile-modal{
+        z-index: 9;
+        height: auto;
+        max-height: auto;
+    }
+    .ubermenu-responsive-toggle .fa-bars{
+         width: auto !important;
+     }
+    .ubermenu-responsive-toggle .fa-bars:before{
+        font-size: 30px;
+    }
+    .row---header-gbl .fl-module-content {
+        margin: 15px 10px;
+    }
+    /*.menu_items{*/
+    /*    position: relative;*/
+    /*}*/
+    .ubermenu-responsive-toggle{
+        position: relative;
+    }
+    .ubermenu-responsive-toggle:before{
+        content: "Home";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -4px;
+        color: var(--copper-3);
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    #lends .ubermenu-responsive-toggle:before{
+        content: "How Legacy Lends";
+    }
+    #abl .ubermenu-responsive-toggle:before{
+        content: "Straight Talk on ABL";
+    }
+    #team .ubermenu-responsive-toggle:before{
+        content: "Legacy Team";
+    }
+    #news .ubermenu-responsive-toggle:before, #news_single .ubermenu-responsive-toggle:before{
+        content: "News";
+    }
+    #contact .ubermenu-responsive-toggle:before{
+        content: "Contact";
+    }
+    .ubermenu-responsive-toggle-open:before{
+        opacity: 0;
+    }
+    .ubermenu-responsive-toggle{
+        padding-bottom: 0px;
+        margin-bottom: -10px;
+    }
+    .ubermenu-mobile-close-button {
+        display: none !important;
+    }
+    .ubermenu-responsive-toggle .fa-bars:before {
+        color: var(--blue-1) !important;
+    }
+    .ubermenu-target {
+        color: var(--charcoal) !important;
+    }
+    .ubermenu-target:hover {
+        color: var(--copper-4) !important;
+    }
+    .ubermenu-current-menu-item .ubermenu-target, .ubermenu-current-menu-item .ubermenu-target:hover{
+        color: var(--copper-3) !important;
+    }
+    #ubermenu-nav-main-2 li{
+        border-color: var(--charcoal);
+    }
+    .ubermenu {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        background: rgb(247 247 247 / 90%);
+        top: 80px;
+        right: 0;
+    }
+    .ubermenu-content-block{
+        display: none;
+    }
+     .sticky_menu .row---header-blue-menu .ubermenu-responsive-toggle .fa-bars:before {
+        color: var(--grey-4) !important;
+    }
+    /*.ubermenu-responsive.ubermenu-in-transition, .ubermenu-responsive.ubermenu-in-transition .ubermenu-nav {*/
+    /*    overflow: hidden !important;*/
+    /*    visibility: hidden;*/
+    /*}*/
+    body:not(.home) .row---header-blue-menu .ubermenu-responsive-toggle .fa-bars:before {
+        color: var(--grey-4) !important;
+    }
+   
+
+}
+/*1250 end here*/
+
+@media (max-width: 1180px){
+    .col---ftr-left .fl-col-group .fl-col:first-child {
+        padding-left: 0%;
+        width: 33%;
+    }
+    .col---ftr-right .fl-col-group .fl-col:first-child{
+        width: 43%;
+    }
+    .col---ftr-right .fl-col-group .fl-col:last-child{
+        width: 55%;
+    }
+    .mod--ftr-menu {
+        padding-left: 7%;
+    }
+}
+
+@media (max-width: 1024px){
+    .col---ftr-left .fl-col-group .fl-col, .col---ftr-right .fl-col-group .fl-col{
+        width: 100% !important;
+    }
+    .mod---company-name-ftr p, .mod--ftr-menu{
+        padding-left: 0%;
+    }
+    .col---policy .fl-col-content {
+        max-width: unset;
+    }
+    .col---ftr-right .fl-col-group{
+        max-width: 276px;
+        margin: auto !important;
+    }
+    .mod---ptd .fl-module-content{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .col---ftr-left .fl-col{
+        padding-left: 12% !important;
+    }
+    .mod---designedBy .fl-module-content{
+        margin-top: 12px;
+    }
+    .menu-item a {
+        padding-top: 6px !important;
+        padding-bottom: 6px !important;
+    }
+    .pl_link {
+        padding: 7px 15px 7px 0px;
+    }
+    .menu, .pl-links {
+        max-width: unset;
+    }
+    .mod---company-name-ftr .fl-module-content{
+        margin-bottom: 5px;
+    }
+    
+}
+
+@media (max-width: 810px){
+   .menu_col{
+       width: 100%;
+   }
+   .menu_items{
+       max-width: 200px;
+   }
+   .ubermenu-responsive-toggle .fa-bars:before {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 768px){
+    .col---ftr-left, .col---ftr-right{
+        width: 50% !important;
+        max-width: unset !important;
+        clear: none;
+        float: left;
+    }
+    .col---ftr-right .fl-col-group{
+        z-index: 9;
+    }
+    .menu{
+        text-align: left !important;
+    }
+    .mod---copyright .fl-module-content {
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 750px){
+    .home .sticky_menu .ubermenu, body:not(.home) .ubermenu, .home .ubermenu {
+        top: 61px !important;
+    }
+    .brand_box h4 {
+        font-size: 14px;
+    }
+    .header_logo img {
+        max-width: 197px;
+    }
+    .ubermenu-responsive-toggle:before {
+        top: -2px;
+        font-size: 11px;
+    }
+    .ubermenu-responsive-toggle .fa-bars:before {
+        font-size: 20px;
+    }
+    .row---header-gbl .fl-module-content {
+        margin: 11px 10px;
+    }
+    .ubermenu {
+        top: 62px;
+    }
+    .menu_items {
+        max-width: 145px;
+    }
+}
+    
+@media (max-width: 640px){
+    .mod---company-name-ftr p {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .mod---location p {
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .mod---copyright p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .mod---line-ftr .fl-separator {
+        max-width: 200px;
+    }
+    .mod---location .fl-module-content{
+        margin-bottom: 13px;
+    }
+    .mod---line-ftr .fl-module-content {
+        margin-bottom: 20px;
+    }
+    .row--footer img {
+        max-width: 163px;
+    }
+    .menu-item a {
+        padding-top: 4px !important;
+        padding-bottom: 4px !important;
+        font-size: 13px;
+    }
+    .pl_link {
+        padding: 4px 10px 4px 0px;
+        font-size: 12px;
+    }
+    .mod---designedBy p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .lexaeon {
+        font-size: 12px;
+    }
+    .col---ftr-right .fl-col-group {
+        max-width: 230px;
+    }
+    
+}
+
+@media (max-width: 580px){
+    .home .sticky_menu .ubermenu, body:not(.home) .ubermenu, .home .ubermenu {
+        top: 63px !important;
+    }
+    .ubermenu-responsive-toggle:before{
+        content: " " !important;
+    }
+    .custom_header{
+        flex-wrap: wrap;
+    }
+    .header_logo{
+        flex-basis: 80%;
+    }
+    .menu_items{
+        flex-basis: 20%;
+    }
+    .brand_id{
+        flex-basis: 100%;
+        position: relative;
+    }
+    .ubermenu-responsive-toggle .fa-bars:before {
+        font-size: 30px;
+    }
+    .ubermenu-responsive-toggle {
+        padding-top: 0px;
+        margin-bottom: 0px;
+        padding-right: 0px;
+        text-align: right !important;
+    }
+    .brand_box h4 {
+        font-size: 16px;
+        padding-top: 11px;
+    }
+    .header_logo img {
+        max-width: 199px;
+    }
+    .row---header-gbl .fl-module-content {
+        margin: 17px 18px 15px;
+    }
+    .row---header-gbl .fl-row-content {
+        max-width: 100%;
+    }
+    .brand_box:before {
+        content: " ";
+        width: calc(100% - 231px);
+        position: absolute;
+       border-bottom: 1px solid;
+        left: 0;
+        bottom: 5px;
+    }
+    .ubermenu:not(.ubermenu-responsive-collapse) {
+        height: 100vh;
+        min-height: 100vh;
+    }
+    .sticky_menu .brand_id{
+        display: none;
+    }
+    .sticky_menu .row---header-gbl .fl-module-content {
+        margin: 11.5px 18px 11.5px;
+    }
+
+
+}
+
+@media (max-width: 560px){
+    .col---ftr-left .fl-col {
+        padding-left: 0px !important;
+    }
+    .mod---copyright .fl-module-content {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 480px){
+    .row--footer:after{
+        content: unset;
+    }
+    .col---ftr-left, .col---ftr-right{
+        width: 100% !important;
+    }
+    .col---ftr-left .fl-col-group{
+        max-width: 276px;
+        margin: 0 auto;
+    }
+    .col---ftr-right .fl-col-group {
+        max-width: 276px;
+    }
+    .col---ftr-left .fl-col {
+        padding-left: 0% !important;
+    }
+    body:not(.fl-builder-edit) .mod---copyright-mob{
+        display: block;
+    }
+    body:not(.fl-builder-edit) .mod---copyright-desk{
+        display: none;
+    }
+    .row--footer img {
+        max-width: 209px;
+    }
+    .mod---company-name-ftr p {
+        font-size: 20px;
+        line-height: 24px;
+        padding-left: 18px;
+    }
+    .mod---location p {
+        font-size: 15px;
+        line-height: 24px;
+        padding-left: 18px;
+    }
+    .menu-item a {
+        font-size: 16px;
+        padding-top: 7px !important;
+        padding-bottom: 7px !important;
+    }
+    .pl_link {
+        font-size: 14px;
+        padding: 7px 15px 7px 0px;
+    }
+    .mod---copyright p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .mod---designedBy p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .lexaeon {
+        font-size: 17px;
+    }
+    .mod---designedBy .fl-module-content {
+        margin-right: 15px;
+    }
+    .mod---copyright .fl-module-content {
+        margin-top: 23px;
+    }
+    .mod---line-ftr .fl-module-content {
+        margin: 13px 0px 10px;
+    }
+    .mod---line-ftr .fl-separator {
+        max-width: 278px;
+    }
+}
+    
+    
+    
+    
+    
+    
+</style>
